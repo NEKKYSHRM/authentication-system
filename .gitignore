@@ -1,0 +1,38 @@
+# Node.js dependencies
+/node_modules
+
+# Environment variable files
+.env
+
+# Logs
+*.log
+logs/
+
+# OS files
+.DS_Store       # macOS
+Thumbs.db       # Windows
+
+# npm package lock files (optional, depending on project needs)
+package-lock.json
+yarn.lock
+
+# Build directory
+/dist
+
+# Dependency directories for tools like Webpack, etc.
+/.webpack
+
+# IDE/Editor directories and files
+.vscode/
+.idea/
+
+# Public directory if you don't want to commit frontend build files (like when using a build tool)
+public/
+
+# Optional: Test coverage directory
+/coverage
+
+# Temporary or backup files
+*.swp
+*.swo
+

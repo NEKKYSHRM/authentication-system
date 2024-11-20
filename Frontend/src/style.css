@@ -1,0 +1,129 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url('../Assets/pic2.avif');
+  background-size: cover;
+  color: white;
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.container {
+    display: flex;
+    /* display: none; */
+    flex-direction: column;
+    align-items: center;
+    gap: 1vw;
+    background-color: white;
+    color: black;
+    padding: 2vw 5vw;
+    border-radius: 10px;
+}
+
+#fetchData {
+    background-color: rgb(234, 9, 84);
+    color: white;
+    padding: 0.5vw;
+    font-weight: bold;
+    border-radius: 5%;
+    border: none;
+    /* border: 2px solid rgb(0, 0, 0); */
+    cursor: pointer;
+}
+
+#fetchData:hover {
+    background-color: rgb(193, 0, 64);
+}
+
+
+/* card */
+
+.login-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1vw;
+  width: 25vw;
+  padding: 1.5vw;
+  background-color: rgb(255, 255, 255);
+  color: #ea0954;
+  border: 4px solid #ea0954;
+  box-shadow: 3px 5px 2vw black;
+  border-radius: 4%;
+  /* display: none; */
+}
+
+.register-card {
+  display: flex;
+  /* display: none; */
+  flex-direction: column;
+  align-items: center;
+  gap: 1vw;
+  width: 25vw;
+  padding: 1.5vw;
+  background-color: rgb(255, 255, 255);
+  color: #ea0954;
+  border: 4px solid #ea0954;
+  box-shadow: 3px 5px 2vw black;
+  border-radius: 4%;
+}
+
+.hidden {
+  display: none;
+}
+
+h1 {
+  font-size: larger;
+}
+
+.form {
+  margin-top: 1vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1vw;
+  width: 100%;
+}
+
+.box {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  gap: 0.5vw;
+  font-weight: 500;
+}
+
+
+.inputData {
+  padding: 0.7vw 1vw;
+  border: 2px solid #ea0954;
+  border-radius: 15px;
+}
+
+.submit {
+  padding: 0.5vw 2.5vw;
+  margin: 1vw 1vw 0vw 1vw;
+  /* width: 40%; */
+  font-weight: bold;
+  font-size: large;
+  background-color: #ea0954;
+  color: white;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+.submit:hover {
+  background-color: #ff0055;
+  font-size: larger;
+}
+
